@@ -99,14 +99,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 # 🪜 Lab Setup Procedure
 
-## Step 1: Install 7-Zip
-7-Zip was installed to unpack the Kali Linux virtual machine files if they were provided in a compressed .7z format.
-Tool: 7-Zip
----
-
-## Step 2. Set Up VirtualBox
-Oracle VirtualBox was installed to provide a virtual environment for running Kali Linux and other machines required for cybersecurity practice.
----
+## à
 
 ## Step 3. Create the NAT Network
 
@@ -253,31 +246,21 @@ Through this project, I learned how to create and configure a virtual environmen
 
 The most important concepts I learned include:
 
-### 1. NAT vs NAT Network
+1. NAT Network Configuration
 
-A standard NAT configuration and a NAT Network serve different purposes.
+I learned how to create and configure a NAT Network in VirtualBox to allow multiple virtual machines to communicate while maintaining internet connectivity.
 
-A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
+2. Kali Linux Installation and Setup
 
-This makes it useful for building a multi-machine cybersecurity laboratory.
+I learned how to import Kali Linux into VirtualBox, allocate system resources, and configure a shared folder.
 
-### 2. Virtual Machine Networking
+3. Network Configuration
 
-I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+I learned how to configure IPv4 addresses, gateways, and DNS settings and verify network connectivity using Kali Linux.
 
-### 3. Static IP Configuration
+4. Troubleshooting and VM Snapshots
 
-I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
-
-### 4. VM Snapshots
-
-I learned that a clean snapshot should be created **before performing risky or experimental activities**.
-
-This provides a known-good recovery point for future cybersecurity exercises.
-
-### 5. Documentation
-
-I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
+I learned how to troubleshoot common virtual machine setup issues and create snapshots to restore Kali Linux to a working state when needed..
 
 ---
 
