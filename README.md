@@ -71,7 +71,7 @@ Linux system hardening
 
 ## 🏗️ Lab Architecture
 
-![](1-screenshot-title-image.png)
+![](Screenshot_20261029-171242.png)
 
 
 Additional target machines can be added to the same virtual network in future projects.
