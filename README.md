@@ -99,7 +99,17 @@ Additional target machines can be added to the same virtual network in future pr
 
 # 🪜 Lab Setup Procedure
 
-## à
+## Step 1: Install 7-Zip
+
+7-Zip was installed to extract the Kali Linux virtual machine files from compressed archives.
+
+Tool: 7-Zip
+
+---
+
+## Step 2. Set Up VirtualBox
+
+Oracle VirtualBox was installed to create a virtual environment for running Kali Linux and other virtual machines needed for cybersecurity lab activities.
 
 ## Step 3. Create the NAT Network
 
