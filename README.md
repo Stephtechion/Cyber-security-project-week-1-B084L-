@@ -234,21 +234,16 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 ---
 
-## Problem 2. VirtualBox VT-x / Virtualization Error
-
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
-
+## Problem 2. Kali Linux Stuck on the Boot Screen
+Kali Linux initially failed to complete the boot process due to insufficient memory allocated to the virtual machine.
 The issue was resolved by:
-
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
-
-After enabling virtualization, the VM started successfully.
-
+Shutting down the Kali VM.
+Opening VirtualBox settings.
+Selecting System → Motherboard.
+Increasing the allocated RAM to 2048 MB.
+Saving the changes.
+Starting the Kali VM again.
+After adjusting the memory allocation, Kali Linux booted successfully.
 
 ---
 
